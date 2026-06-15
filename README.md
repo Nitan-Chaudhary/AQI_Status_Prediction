@@ -51,10 +51,19 @@ Implemented Machine Learning algorithms:
 Logistic Regression
 Random Forest Classifier
 Decision Tree Classifier
-6. Model Evaluation
+7. Model Evaluation
 Evaluation metrics:
 Accuracy
 Precision
 Recall
 F1 Score
 Confusion Matrix
+
+
+--Project Screenshots--
+
+<img width="1350" height="704" alt="Capture" src="https://github.com/user-attachments/assets/64fae91e-bcf4-4f30-bd6d-1690e08ea50d" />
+
+<img width="1349" height="700" alt="Capture2" src="https://github.com/user-attachments/assets/d8602d58-ac83-4213-a9c1-b94f2241d71e" />
+
+
