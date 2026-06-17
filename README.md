@@ -62,8 +62,12 @@ Confusion Matrix
 
 --Project Screenshots--
 
+1.Prediction Portal
 <img width="1350" height="704" alt="Capture" src="https://github.com/user-attachments/assets/64fae91e-bcf4-4f30-bd6d-1690e08ea50d" />
 
-<img width="1349" height="700" alt="Capture2" src="https://github.com/user-attachments/assets/d8602d58-ac83-4213-a9c1-b94f2241d71e" />
+2. Datasets Analytics Insights Portal
+<img width="1345" height="683" alt="Capture4" src="https://github.com/user-attachments/assets/5103426a-f7af-4b69-8dc9-2890890c3b44" />
 
+
+<img width="1351" height="615" alt="Capture3" src="https://github.com/user-attachments/assets/b44a9604-5e54-40fc-a49e-aeb0a076827c" />
 
