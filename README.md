@@ -29,7 +29,7 @@ NumPy
 Matplotlib
 Seaborn
 Scikit-learn
-Jupyter Notebook
+Google Colab Notebook
 
 📈 Project Workflow
 1. Data Collection
