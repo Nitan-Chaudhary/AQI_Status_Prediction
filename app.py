@@ -10,7 +10,7 @@ st.set_page_config(page_title="AQI Status Prediction Dashboard", layout="wide")
 # --- 1. DATA & MODEL LOADING ---
 @st.cache_data
 def load_data():
-    df = pd.read_csv("aqi.csv")
+    df = pd.read_csv("aqi.csv.zip")
     df['date'] = pd.to_datetime(df['date'], format='%d-%m-%Y')
     return df
 
