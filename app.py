@@ -23,7 +23,7 @@ except Exception as e:
 try:
     model = joblib.load("train_model.joblib")
 except Exception as e:
-    st.warning("Model train_model.joblib not found. App running in Simulation Mode.")
+    # st.warning("Model train_model.joblib not found. App running in Simulation Mode.")
     model = None
 
 # --- 2. PREMIUM GLASSMORPHISM CUSTOM CSS ---
