@@ -10,7 +10,7 @@ st.set_page_config(page_title="AQI Status Prediction Dashboard", layout="wide")
 # --- 1. DATA & MODEL LOADING ---
 @st.cache_data
 def load_data():
-    df = pd.read_csv("aqi.csv")
+    df = pd.read_csv("aqi.zip")
     df['date'] = pd.to_datetime(df['date'], format='%d-%m-%Y')
     return df
 
@@ -21,9 +21,9 @@ except Exception as e:
     st.stop()
 
 try:
-    model = joblib.load("aqi_model.joblib")
+    model = joblib.load("train_model.joblib")
 except Exception as e:
-    st.warning("Model aqi_model.joblib not found. App running in Simulation Mode.")
+    st.warning("Model train_model.joblib not found. App running in Simulation Mode.")
     model = None
 
 # --- 2. PREMIUM GLASSMORPHISM CUSTOM CSS ---
